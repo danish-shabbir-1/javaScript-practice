@@ -113,3 +113,28 @@ const newDigit = digit.slice(0,8)
 console.log(newDigit);
 
 /////////// splice method ////////
+
+/////////// Only Delete ////////////
+
+const del = [1,2,3,4,5,6,7,8]
+
+del.splice(3,del.length)
+
+console.log('del--->', del);
+
+/////////// Only Add ////////////
+
+const add = [1,2,3,4,5,6,7,8,9,10]
+
+add.splice(5,3)
+
+console.log(add);
+
+/////////// Add and delete both ////////////
+
+const addDel = [1,2,3,4,5,6,7,8,9,10]
+
+addDel.splice(2,2, 'Danish' , 'Ahmed')
+
+console.log(addDel);
+
