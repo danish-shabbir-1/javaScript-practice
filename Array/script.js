@@ -138,3 +138,21 @@ addDel.splice(2,2, 'Danish' , 'Ahmed')
 
 console.log(addDel);
 
+////////// Sort method ////////////////
+
+const numSort = [2,1,7,5,4,6,8,9,3]
+const numSort1 = [2,1,17,5,14,6,8,9,3]
+const strSort = ['a','b','v','g','e','a','c','d','e','x','c','u','i']
+
+console.log('numSort-->', numSort);
+console.log('numSort1-->' ,numSort1);
+console.log('strSort-->' ,strSort);
+
+numSort.sort()
+strSort.sort()
+numSort1.sort((a,b) => b-a)
+
+console.log('numSort-->', numSort);
+console.log('numSort1-->' , numSort1);
+console.log('strSort-->' ,strSort);
+
