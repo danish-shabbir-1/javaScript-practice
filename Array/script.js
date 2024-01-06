@@ -103,3 +103,13 @@ function sum1(acumalator, value) {
 }
 
 console.log(newNumbs);
+
+////////// slice method /////////
+
+const digit = [1,2,3,4,5,6,7,8]
+
+const newDigit = digit.slice(0,8)
+
+console.log(newDigit);
+
+/////////// splice method ////////
