@@ -167,3 +167,11 @@ const arr4 = arr2.concat('DANISH', 'SHABBIR')
 console.log(arr3);
 console.log(arr4);
 
+
+////////// Push method ////////////////
+
+const pshMth = [1,2,3,4,5,6]
+console.log('pshMth-->', pshMth);
+pshMth.push(7,8,9,10)
+console.log(pshMth);
+
