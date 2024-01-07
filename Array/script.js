@@ -175,3 +175,10 @@ console.log('pshMth-->', pshMth);
 pshMth.push(7,8,9,10)
 console.log(pshMth);
 
+
+////////// Pop method ///////////////
+
+const popMth = [1,2,3,4,5,6]
+console.log('popMth-->', popMth);
+popMth.pop()
+console.log(popMth);
