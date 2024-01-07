@@ -156,3 +156,14 @@ console.log('numSort-->', numSort);
 console.log('numSort1-->' , numSort1);
 console.log('strSort-->' ,strSort);
 
+////////// Concat method //////////////
+
+const arr1 = [1,2,3,4,5]
+const arr2 = [6,7,8,9,10]
+
+const arr3 = arr1.concat(arr2)
+const arr4 = arr2.concat('DANISH', 'SHABBIR')
+
+console.log(arr3);
+console.log(arr4);
+
