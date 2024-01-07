@@ -189,3 +189,10 @@ const shiftMth = [1,2,3,4,5,6]
 console.log('shiftMth-->', shiftMth);
 shiftMth.shift()
 console.log(shiftMth);
+
+////////// Unshift method //////////
+
+const unShiftMth = [1,2,3,4,5,6]
+console.log('unShiftMth-->', unShiftMth);
+unShiftMth.unshift(9,10)
+console.log(unShiftMth);
