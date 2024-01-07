@@ -182,3 +182,10 @@ const popMth = [1,2,3,4,5,6]
 console.log('popMth-->', popMth);
 popMth.pop()
 console.log(popMth);
+
+///////// Shift method ///////////
+
+const shiftMth = [1,2,3,4,5,6]
+console.log('shiftMth-->', shiftMth);
+shiftMth.shift()
+console.log(shiftMth);
