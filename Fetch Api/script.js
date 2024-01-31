@@ -1,6 +1,7 @@
 fetch(`https://catfact.ninja/fact`)
 .then(res => res.json())
-.then(res => { console.log(res)
+.then(res => {
+      console.log(res)
     const container = document.getElementById('container')
 
     const h1 = document.createElement('h1')
