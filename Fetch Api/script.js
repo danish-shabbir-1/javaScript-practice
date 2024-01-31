@@ -1,10 +1,10 @@
-const dataBili = {
-  catName: "Billi",
-  FatherName: "Billa Khan",
-  catName: "Billi",
-  FatherName: "Billa Khan",
-};
+fetch(`https://catfact.ninja/fact`)
+.then(res => res.json())
+.then(res => { console.log(res)
+    const container = document.getElementById('container')
 
-fetch(`https://www.boredapi.com/api/activity`)
-  .then((res) => res.json())
-  .then((data) => console.log(data));
+    const h1 = document.createElement('h1')
+    h1.innerText= res.fact
+    
+    container.appendChild(h1)
+})
