@@ -22,7 +22,7 @@
 
 // 2 Urinary Opraters
 
-let a = 10;
+// let a = 10;
 
 // POST Decrement & Increament
 
@@ -35,3 +35,15 @@ let a = 10;
 // console.log('a --  = ', a ); // 9
 // console.log('a ++  = ', a ++); // 10
 // console.log('a --  = ', a ); // 11
+
+// 3 Assigment Opraters
+
+// let a = 10;
+// let b = 5;
+
+// console.log('a += b = ', a += b); // 15
+// console.log('a -= b = ', a -= b); // 10
+// console.log('a *= b = ', a *= b); // 50
+// console.log('a /= b = ', a /= b); // 10
+// console.log('a **= b = ', a **= b); // 100,000
+// console.log('a %= b = ', a %= b); // 0  
