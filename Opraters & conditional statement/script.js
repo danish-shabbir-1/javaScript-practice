@@ -47,3 +47,15 @@
 // console.log('a /= b = ', a /= b); // 10
 // console.log('a **= b = ', a **= b); // 100,000
 // console.log('a %= b = ', a %= b); // 0  
+
+// 4 Comparission Opraters
+
+let a = 10;
+let b = 5;
+let c = '14';
+
+console.log('a == b = ', a == b); // false
+console.log('a === b = ', b === c); // false
+console.log('a == b = ', b == c); // true
+console.log('b != b = ', b != c); // true
+console.log('a !== b = ', b !== c); // false
