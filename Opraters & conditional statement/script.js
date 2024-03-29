@@ -50,12 +50,40 @@
 
 // 4 Comparission Opraters
 
-let a = 10;
-let b = 5;
-let c = '14';
+// let a = 10;
+// let b = 5;
+// let c = '14';
 
-console.log('a == b = ', a == b); // false
-console.log('a === b = ', b === c); // false
-console.log('a == b = ', b == c); // true
-console.log('b != b = ', b != c); // true
-console.log('a !== b = ', b !== c); // false
+// console.log('a == b = ', a == b); // false
+// console.log('a === b = ', b === c); // false
+// console.log('a == b = ', b == c); // true
+// console.log('b != b = ', b != c); // true
+// console.log('a !== b = ', b !== c); // false
+
+
+
+
+
+
+
+
+
+
+
+// if else statements 
+
+let userInput = prompt('Enter Your Number')
+
+if (userInput >= 90 && userInput <= 100) {
+    alert('Your Grade is A')
+} else if (userInput >= 70 && userInput <= 89) {
+    alert('Your Grade is B')
+} else if (userInput >= 60 && userInput <= 69) {
+    alert('Your Grade is C')
+} else if (userInput >= 50 && userInput <= 59) {
+    alert('Your Grade is D')
+} else if (userInput >= 40 && userInput <= 49) {
+    alert('Your Grade is E')
+} else {
+    alert('Your are fail')
+} 
