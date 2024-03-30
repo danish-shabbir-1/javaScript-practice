@@ -105,6 +105,8 @@
 //     alert('Hello Stranger')
 // }
 
+///// Check the area /////
+
 // let length = prompt('Enter Your length')
 // let width = prompt('Enter Your width')
 
@@ -113,27 +115,47 @@
 // alert('Your Rectangle Area is' + result)
 
 
-let firstNum = parseFloat(prompt("Enter the first number:"));
-let sign = prompt('Enter Oprater sign')
-let secNum = parseFloat(prompt("Enter the second number:"));
+///// Calculator /////
 
-let result
+// let firstNum = parseFloat(prompt("Enter the first number:"));
+// let sign = prompt('Enter Oprater sign')
+// let secNum = parseFloat(prompt("Enter the second number:"));
 
-if (sign == '+') {
-    result = firstNum + secNum
-    alert('Your Result is' + result)
-} else if( sign == '-') {
-    result = firstNum - secNum
-    alert('Your Result is' + result) 
-} else if( sign == '*') {
-    result = firstNum * secNum
-    alert('Your Result is' + result) 
-} else if( sign == '/') {
-    result = firstNum / secNum
-    alert('Your Result is' + result) 
-} else {
-    alert('Please Enter Any Value')
-}
+// let result
+
+// if (sign == '+') {
+//     result = firstNum + secNum
+//     alert('Your Result is' + result)
+// } else if( sign == '-') {
+//     result = firstNum - secNum
+//     alert('Your Result is' + result) 
+// } else if( sign == '*') {
+//     result = firstNum * secNum
+//     alert('Your Result is' + result) 
+// } else if( sign == '/') {
+//     result = firstNum / secNum
+//     alert('Your Result is' + result) 
+// } else {
+//     alert('Please Enter Any Value')
+// }
+
+////// Check User Age //////
+
+// let userAge = prompt('Enter Your Age')
+
+// if (userAge >= 13 && userAge <= 19) {
+//     alert('You are TeenAger')
+// } else {
+//     alert('You Are NOT TeenAger')
+// }
+
+
+let radius = prompt('Enter Your Area Radius')
+let heigth = prompt('Enter Your Area heigth')
+
+
+
+
 
 
 
