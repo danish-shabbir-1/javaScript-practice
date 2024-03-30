@@ -157,6 +157,7 @@
 // let result = Math.PI * Math.pow(radius, 2) * height
 // console.log("The volume of the cylinder is: " + result.toFixed(2));
 
+///// check diffrents numbers ////// 
 
 // let num = prompt('Enter Any Number')
 
@@ -167,6 +168,20 @@
 // } else {
 //     alert('Number is Positive')
 // }
+
+///// check Maximum and minimum numbers ////// 
+
+// var num1 = parseFloat(prompt("Enter the first number:"));
+// var num2 = parseFloat(prompt("Enter the second number:"));
+// var num3 = parseFloat(prompt("Enter the third number:"));
+
+// // Finding the maximum and minimum among the three numbers
+// var max = Math.min(num1,num2,num3)
+// var min = Math.max(num1,num2,num3)
+
+// // Displaying the results
+// console.log("The maximum of the three numbers is: " + max);
+// console.log("The minimum of the three numbers is: " + min);
 
 
 
