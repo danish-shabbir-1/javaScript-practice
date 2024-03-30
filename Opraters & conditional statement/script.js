@@ -72,7 +72,7 @@
 
 // if else statements 
 
-let userInput = prompt('Enter Your Number')
+// let userInput = prompt('Enter Your Number')
 
 // if (userInput >= 90 && userInput <= 100) {
 //     alert('Your Grade is A')
@@ -94,3 +94,16 @@ let userInput = prompt('Enter Your Number')
 //     alert('You are Minor')
 // }
 
+let userName = prompt('Enter Your Name')
+
+if (userName == '') {
+    alert('Please Enter Any Name')
+}
+else if (userName === 'john' || userName === 'Danish') {
+    alert('Hello john')
+} else {
+    alert('Hello Stranger')
+}
+
+
+// Practice Conditional Opraters
