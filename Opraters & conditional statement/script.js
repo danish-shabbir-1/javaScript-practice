@@ -149,12 +149,13 @@
 //     alert('You Are NOT TeenAger')
 // }
 
+////// Check the volume of cylender //////
 
-let radius = prompt('Enter Your Area Radius')
-let heigth = prompt('Enter Your Area heigth')
+// var radius = parseFloat(prompt("Enter the radius of the cylinder:"));
+// var height = parseFloat(prompt("Enter the height of the cylinder:"));
 
-
-
+// let result = Math.PI * Math.pow(radius, 2) * height
+// console.log("The volume of the cylinder is: " + result.toFixed(2));
 
 
 
