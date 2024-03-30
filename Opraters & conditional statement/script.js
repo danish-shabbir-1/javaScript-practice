@@ -158,6 +158,16 @@
 // console.log("The volume of the cylinder is: " + result.toFixed(2));
 
 
+// let num = prompt('Enter Any Number')
+
+// if (num === '0') {
+//     alert('Number is zero')
+// } else if(num < 0) {
+//     alert('Number is Nagitive')
+// } else {
+//     alert('Number is Positive')
+// }
+
 
 
 
