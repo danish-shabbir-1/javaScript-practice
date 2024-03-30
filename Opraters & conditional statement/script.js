@@ -94,16 +94,60 @@
 //     alert('You are Minor')
 // }
 
-let userName = prompt('Enter Your Name')
+// let userName = prompt('Enter Your Name')
 
-if (userName == '') {
-    alert('Please Enter Any Name')
-}
-else if (userName === 'john' || userName === 'Danish') {
-    alert('Hello john')
+// if (userName == '') {
+//     alert('Please Enter Any Name')
+// }
+// else if (userName === 'john' || userName === 'Danish') {
+//     alert('Hello john')
+// } else {
+//     alert('Hello Stranger')
+// }
+
+// let length = prompt('Enter Your length')
+// let width = prompt('Enter Your width')
+
+// let result = width * length 
+
+// alert('Your Rectangle Area is' + result)
+
+
+let firstNum = parseFloat(prompt("Enter the first number:"));
+let sign = prompt('Enter Oprater sign')
+let secNum = parseFloat(prompt("Enter the second number:"));
+
+let result
+
+if (sign == '+') {
+    result = firstNum + secNum
+    alert('Your Result is' + result)
+} else if( sign == '-') {
+    result = firstNum - secNum
+    alert('Your Result is' + result) 
+} else if( sign == '*') {
+    result = firstNum * secNum
+    alert('Your Result is' + result) 
+} else if( sign == '/') {
+    result = firstNum / secNum
+    alert('Your Result is' + result) 
 } else {
-    alert('Hello Stranger')
+    alert('Please Enter Any Value')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Practice Conditional Opraters
