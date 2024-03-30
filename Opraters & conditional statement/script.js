@@ -74,16 +74,23 @@
 
 let userInput = prompt('Enter Your Number')
 
-if (userInput >= 90 && userInput <= 100) {
-    alert('Your Grade is A')
-} else if (userInput >= 70 && userInput <= 89) {
-    alert('Your Grade is B')
-} else if (userInput >= 60 && userInput <= 69) {
-    alert('Your Grade is C')
-} else if (userInput >= 50 && userInput <= 59) {
-    alert('Your Grade is D')
-} else if (userInput >= 40 && userInput <= 49) {
-    alert('Your Grade is E')
-} else {
-    alert('Your are fail')
-} 
+// if (userInput >= 90 && userInput <= 100) {
+//     alert('Your Grade is A')
+// } else if (userInput >= 70 && userInput <= 89) {
+//     alert('Your Grade is B')
+// } else if (userInput >= 60 && userInput <= 69) {
+//     alert('Your Grade is C')
+// } else if (userInput >= 50 && userInput <= 59) {
+//     alert('Your Grade is D')
+// } else if (userInput >= 40 && userInput <= 49) {
+//     alert('Your Grade is E')
+// } else {
+//     alert('Your are fail')
+// } 
+
+// if (userInput >= 18) {
+//     alert('You are Adult')
+// } else {
+//     alert('You are Minor')
+// }
+
