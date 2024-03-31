@@ -184,6 +184,16 @@
 // console.log("The minimum of the three numbers is: " + min);
 
 
+////// Check Number evevn and Odd //////
+
+let number = prompt('Enter A Number');
+
+if (number % 2 === 0) {
+    alert('Number is even')
+} else {
+    alert('Number is Odd')
+}
+
 
 
 
