@@ -186,19 +186,25 @@
 
 ////// Check Number evevn and Odd //////
 
-let number = prompt('Enter A Number');
+// let number = prompt('Enter A Number');
 
-if (number % 2 === 0) {
-    alert('Number is even')
-} else {
-    alert('Number is Odd')
-}
+// if (number % 2 === 0) {
+//     alert('Number is even')
+// } else {
+//     alert('Number is Odd')
+// }
 
+////// calculate the percentage //////
 
+// function calculatePercentage(part, whole) {
+//     return (part / whole) * 100;
+// }
 
-
-
-
+// // Example usage:
+// let part = prompt('Enter orignal price')
+// let whole = prompt('Enter the percentage')
+// let percentage = calculatePercentage(part, whole);
+// alert(percentage, '%');  
 
 
 
