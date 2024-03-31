@@ -208,13 +208,13 @@
 
 ////// Check user Name first Latter //////
 
-let userName = prompt('Enter Your Name')
+// let userName = prompt('Enter Your Name')
 
-if (userName.charAt(0).toUpperCase() === 'A') {
-    alert("Your name starts with the letter 'A'.");
-} else {
-    alert("Your name does not start with the letter 'A'.");
-}
+// if (userName.charAt(0).toUpperCase() === 'A') {
+//     alert("Your name starts with the letter 'A'.");
+// } else {
+//     alert("Your name does not start with the letter 'A'.");
+// }
 
 
 
