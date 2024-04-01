@@ -218,11 +218,11 @@
 
 ///// print a table of user ///////
 
-let userInp = prompt('Enter a number for which you want to print the multiplication table:');
-let userInp2 = prompt('Enter the limit for printing the table:');
-userInp = parseInt(userInp)
-userInp2 = parseInt(userInp2)
+// let userInp = prompt('Enter a number for which you want to print the multiplication table:');
+// let userInp2 = prompt('Enter the limit for printing the table:');
+// userInp = parseInt(userInp)
+// userInp2 = parseInt(userInp2)
 
-for(let i = 1; i <= userInp2; i++) {
-    document.write(`${userInp} x ${i} = ${userInp * i}<br />`)
-}
+// for(let i = 1; i <= userInp2; i++) {
+//     document.write(`${userInp} x ${i} = ${userInp * i}<br />`)
+// }
