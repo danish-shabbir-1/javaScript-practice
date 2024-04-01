@@ -24,6 +24,18 @@
 //     console.log('10', 'x', i/5, '=', i);
 // }
 
+// print even number 
+
+// for (let i = 0; i <= 100; i = i + 2) {
+// console.log(i);
+// }
+
+// print odd number 
+
+// for (let i = 1; i <= 100; i = i + 2) {
+// console.log(i);
+// }
+
 // 2. While Loop
 
 // let i = 1
