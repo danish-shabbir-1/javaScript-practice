@@ -17,6 +17,14 @@ while (i <= 10) {
     i++;
 }
 
+// 3. Do While Loop
+
+let j = 20
+
+do {
+    console.log("Danish Here");
+    j++
+} while (j <= 10);
 
 
 
@@ -24,3 +32,7 @@ while (i <= 10) {
 
 
 
+
+
+
+/// Learn White Loop
