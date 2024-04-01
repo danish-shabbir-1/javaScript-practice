@@ -10,6 +10,12 @@ for(let i = 10; i <= 100; i = i+10) {
 
 // 2. While Loop
 
+let i = 1
+
+while (i <= 10) {
+    console.log("Hello Beta =" + i);
+    i++;
+}
 
 
 
@@ -18,9 +24,3 @@ for(let i = 10; i <= 100; i = i+10) {
 
 
 
-
-
-
-
-
-/// Learn White Loop
