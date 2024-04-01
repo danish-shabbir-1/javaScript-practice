@@ -44,11 +44,22 @@
 
 // 4. for off Loop
 
-let str = 'DANISH'
-let arr = ['abc', 'bca', 'dhk']
+// let str = 'DANISH'
+// let arr = ['abc', 'bca', 'dhk']
 
-for(let str1 of obj) {
-  console.log(str1);
+// for(let str1 of arr) {
+//   console.log(str1);
+// }
+
+// 5. for in Loop
+
+let obj = {
+    abc : 123,
+    name : 'Danish'
+}
+
+for(let obj1 in obj) {
+    console.log(`${obj1} value is ${obj[obj1]}`); 
 }
 
 ////////////////////////////////////////////////  WORK ENDS ///////////////////////////////////////////////////////
