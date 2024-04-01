@@ -36,6 +36,16 @@
 // console.log(i);
 // }
 
+// Number guessing Game
+
+// let userInp = prompt('Guess a number & win a car')
+// let gameNum = 25
+
+// while (userInp != gameNum) {
+//     userInp = prompt('Wrong Number! Please try again')
+// }
+// alert('Congratulation You win a Mercedes AMG 2024 New model');
+
 // 2. While Loop
 
 // let i = 1
