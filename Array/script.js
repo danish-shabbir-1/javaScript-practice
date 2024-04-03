@@ -206,9 +206,11 @@
 /////////////////////////////////////////////////////// NOTES ////////////////////////////////////////////////////////
 
 // 1. toString method
+// 2. Push method
 
 
 // 1. tostring method array ko string me convert krta ha
+// 2. Push method array ke and me koi bhi value string boolean ye add krta ha
 
 //// About Arrays
 
@@ -271,10 +273,21 @@
 
 // 1. toString method
 
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+// let convertInString = arr.toString();
+
+// console.log(arr);
+// console.log(convertInString);
+
+// 2. Push method
+
 let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
-let convertInString = arr.toString();
 
 console.log(arr);
-console.log(convertInString);
+
+let addItem = arr.push('Chips', 'Sprite');
+
+console.log(arr);
+
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
