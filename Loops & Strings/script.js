@@ -99,6 +99,7 @@
 // 7. slice method
 // 8. trim method
 // 9. replace method
+// 10. replaceAll method
 
 
 // let myName = 'Danish shabbir'
@@ -165,6 +166,23 @@
 
 // console.log(res);
 // console.log(userName);
+
+// replaceAll method
+
+// let userName = 'Pakistan is our our our our coutry'
+// let res = userName.replaceAll('our', 'your')
+
+// console.log(res);
+// console.log(userName);
+
+
+
+
+
+
+
+
+
 
 
 /////////////////////////////////////////////// STRINGS ENDS ///////////////////////////////////////////////////////
