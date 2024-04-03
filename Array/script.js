@@ -207,10 +207,13 @@
 
 // 1. toString method
 // 2. Push method
+// 3. Pop method 
+
 
 
 // 1. tostring method array ko string me convert krta ha
 // 2. Push method array ke and me koi bhi value string boolean ye add krta ha
+// 3. Pop method array ke and se value remove krta ha
 
 //// About Arrays
 
@@ -281,11 +284,21 @@
 
 // 2. Push method
 
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+
+// console.log(arr);
+
+// let addItem = arr.push('Chips', 'Sprite');
+
+// console.log(arr);
+
+// 3. Pop method 
+
 let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
 
 console.log(arr);
 
-let addItem = arr.push('Chips', 'Sprite');
+let addItem = arr.pop();
 
 console.log(arr);
 
