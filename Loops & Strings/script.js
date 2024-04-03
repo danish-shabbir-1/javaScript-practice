@@ -98,6 +98,7 @@
 // 6. toLowerCase method
 // 7. slice method
 // 8. trim method
+// 9. replace method
 
 
 // let myName = 'Danish shabbir'
@@ -157,8 +158,13 @@
 // console.log(res);
 // console.log(userName);
 
+// replace method
 
+// let userName = 'Pakistan is our coutry'
+// let res = userName.replace('our', 'your')
 
+// console.log(res);
+// console.log(userName);
 
 
 /////////////////////////////////////////////// STRINGS ENDS ///////////////////////////////////////////////////////
