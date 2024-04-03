@@ -46,7 +46,6 @@
 //     Price: item.price*item.Quantity
 // }))
 
-
 // console.log(newArr);
 
 // ///////////// Filter method ///////////////
@@ -167,14 +166,12 @@
 // console.log(arr3);
 // console.log(arr4);
 
-
 // ////////// Push method ////////////////
 
 // const pshMth = [1,2,3,4,5,6]
 // console.log('pshMth-->', pshMth);
 // pshMth.push(7,8,9,10)
 // console.log(pshMth);
-
 
 // ////////// Pop method ///////////////
 
@@ -208,47 +205,52 @@
 
 /////////////////////////////////////////////////////// NOTES ////////////////////////////////////////////////////////
 
+// 1. toString method
+
+
+// 1. tostring method array ko string me convert krta ha
+
+//// About Arrays
+
 // 1. Array ki type object hoti ha ye behave bhi object ki tarha krta ha
 // 2. Arrays are mutalbe isko hm direct change krskte ha string immutable hoti ha
 // 3. Array ke lie for off loop use hota ha agar index number bhi chaihe ha kisi condition me to for loop use krte ha phr
-
-
 
 
 /////////////////////////////////////////////////////// NOTES ////////////////////////////////////////////////////////
 
 // for loop apply in array
 
-const marks = [12, 20, 54, 99, 63, 85];
-const heros = ['shaktiman', 'Thor', 'SpiderMan', 'Hulk']
+// const marks = [12, 20, 54, 99, 63, 85];
+// const heros = ['shaktiman', 'Thor', 'SpiderMan', 'Hulk']
 
-for(let i = 0; i < heros.length; i++) {
-    // i ke andar sb index number a rhe ha isko hmm heros ke andar add krenge to ye full array ko dedega
-    console.log(heros[i]);
-}
+// for(let i = 0; i < heros.length; i++) {
+//     // i ke andar sb index number a rhe ha isko hmm heros ke andar add krenge to ye full array ko dedega
+//     console.log(heros[i]);
+// }
 
-for (const i of heros) {
-    console.log('heros-->', i.toUpperCase());
-}
+// for (const i of heros) {
+//     console.log('heros-->', i.toUpperCase());
+// }
 
-// count sum of array 
+// count sum of array
 
-const stdMarks = [59, 70, 54, 99, 63, 85];
-let result = 0
-let avg;
+// const stdMarks = [59, 70, 54, 99, 63, 85];
+// let result = 0
+// let avg;
 
-for (let i = 0; i < stdMarks.length; i++) {
-    result += stdMarks[i]
-    console.log(stdMarks[i]);
-}
+// for (let i = 0; i < stdMarks.length; i++) {
+//     result += stdMarks[i]
+//     console.log(stdMarks[i]);
+// }
 
-console.log("The sum of the array is:" , result);
+// console.log("The sum of the array is:" , result);
 
- avg = result / stdMarks.length
+//  avg = result / stdMarks.length
 
-console.log("The avrage of the array is:" , avg);
+// console.log("The avrage of the array is:" , avg);
 
-// count off percentage of item 
+// count off percentage of item
 
 // OFFER NIKALNE KA TARIKA
 
@@ -257,33 +259,22 @@ console.log("The avrage of the array is:" , avg);
 // 3. discounted price nikalne ha  ( orignal price ko minus - krdo off percentage se)
 // 4. percentage off nikalne ke lie offer ko divide krdo orignal price ke sath phr orignal price ko multiply krdo 100 ke sath
 
-const productPrice = [599, 799, 499, 99, 699, 999, 1000];
+// const productPrice = [599, 799, 499, 99, 699, 999, 1000];
 
-for(let i = 0; i < productPrice.length; i++) {
-    const originalPrice = productPrice[i]
-    const findOffer = originalPrice / 10
-    const discountedPrice = originalPrice - findOffer
-    const percentageOff = findOffer / originalPrice * 100
-    console.log(`Original Price: $${originalPrice}, Discounted Price: $${discountedPrice}, Percentage Off: ${percentageOff}%`);
-}
+// for(let i = 0; i < productPrice.length; i++) {
+//     const originalPrice = productPrice[i]
+//     const findOffer = originalPrice / 10
+//     const discountedPrice = originalPrice - findOffer
+//     const percentageOff = findOffer / originalPrice * 100
+//     console.log(`Original Price: $${originalPrice}, Discounted Price: $${discountedPrice}, Percentage Off: ${percentageOff}%`);
+// }
 
+// 1. toString method
 
+let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+let convertInString = arr.toString();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(arr);
+console.log(convertInString);
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
