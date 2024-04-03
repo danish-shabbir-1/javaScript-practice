@@ -211,7 +211,7 @@
 // 4. concat method
 // 5. shift method
 // 6. unShift method
-
+// 7. slice method 
 
 
 // 1. tostring method array ko string me convert krta ha
@@ -220,6 +220,10 @@
 // 4. concat method multiple array ko a array me dal kr return krta ha 
 // 5. shift method array ke start se index number 0 se value ko remove krta ha delete krta ha 
 // 6. unShift method array ke start me value add krta ha 
+// 7. slice method kisi bhi array se hmme 1 tukra ya value nikal kr deta ha isme starting index mtlb kha se uthana ha 
+//    or ending index kha tak uthana ha ending index 1 zyada dete ha hamesha agar 6 index tal value uthane ha to ending 
+//    index 7 hoga 
+
 
 
 
@@ -330,12 +334,22 @@
 
 // 6. shift method 
 
-let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+
+// console.log(arr);
+
+// let addItem = arr.shift();
+
+// console.log(arr);
+
+// 7. slice method 
+
+let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
 
 console.log(arr);
 
-let addItem = arr.shift();
+let slice = arr.slice(2,5);
 
-console.log(arr);
+console.log(slice);
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
