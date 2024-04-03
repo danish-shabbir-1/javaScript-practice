@@ -217,6 +217,7 @@
 
 /////////////////////////////////////////////////////// NOTES ////////////////////////////////////////////////////////
 
+// for loop apply in array
 
 const marks = [12, 20, 54, 99, 63, 85];
 const heros = ['shaktiman', 'Thor', 'SpiderMan', 'Hulk']
@@ -232,7 +233,7 @@ for (const i of heros) {
 
 // count sum of array 
 
-const stdMarks = [12, 20, 54, 99, 63, 85];
+const stdMarks = [59, 70, 54, 99, 63, 85];
 let result = 0
 let avg;
 
@@ -247,6 +248,24 @@ console.log("The sum of the array is:" , result);
 
 console.log("The avrage of the array is:" , avg);
 
+// count off percentage of item 
+
+// OFFER NIKALNE KA TARIKA
+
+// 1. find orignal price
+// 2. discount nikalna ha phr ( orignal price ko devide krdo off percentage like 10%,30%, se )
+// 3. discounted price nikalne ha  ( orignal price ko minus - krdo off percentage se)
+// 4. percentage off nikalne ke lie offer ko divide krdo orignal price ke sath phr orignal price ko multiply krdo 100 ke sath
+
+const productPrice = [599, 799, 499, 99, 699, 999, 1000];
+
+for(let i = 0; i < productPrice.length; i++) {
+    const originalPrice = productPrice[i]
+    const findOffer = originalPrice / 10
+    const discountedPrice = originalPrice - findOffer
+    const percentageOff = findOffer / originalPrice * 100
+    console.log(`Original Price: $${originalPrice}, Discounted Price: $${discountedPrice}, Percentage Off: ${percentageOff}%`);
+}
 
 
 
