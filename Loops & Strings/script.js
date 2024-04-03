@@ -94,19 +94,25 @@
 // 2. Template Literals (NOT string method)
 
 
-let myName = 'Danish shabbir'
+// let myName = 'Danish shabbir'
 
-let checkLength = myName.length
-console.log(checkLength);
+// let checkLength = myName.length
+// console.log(checkLength);
 
-// Template Literals //
+// // Template Literals //
 
-let firstName = 'Danish';
-let LastName = 'Shabbir';
+// let firstName = 'Danish';
+// let LastName = 'Shabbir';
 
-console.log(`My First Name is ${firstName} and Father Name is ${LastName} understand!`);
+// console.log(`My First Name is ${firstName} and Father Name is ${LastName} understand!`);
 
+// charAt method
 
+let userName = 'Pakistan'
+
+let res = userName.charAt(4)
+
+console.log(res);
 
 
 
