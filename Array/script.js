@@ -208,12 +208,20 @@
 // 1. toString method
 // 2. Push method
 // 3. Pop method 
+// 4. concat method
+// 5. shift method
+// 6. unShift method
 
 
 
 // 1. tostring method array ko string me convert krta ha
 // 2. Push method array ke and me koi bhi value string boolean ye add krta ha
 // 3. Pop method array ke and se value remove krta ha
+// 4. concat method multiple array ko a array me dal kr return krta ha 
+// 5. shift method array ke start se index number 0 se value ko remove krta ha delete krta ha 
+// 6. unShift method array ke start me value add krta ha 
+
+
 
 //// About Arrays
 
@@ -294,13 +302,21 @@
 
 // 3. Pop method 
 
-let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
 
-console.log(arr);
+// console.log(arr);
 
-let addItem = arr.pop();
+// let addItem = arr.pop();
 
-console.log(arr);
+// console.log(arr);
+
+// 4. concat method
+
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+// let arr2 = ["Pinaple", "Mango", "Orange"];
+
+// let concatArr = arr.concat(arr2)
+// console.log(concatArr);
 
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
