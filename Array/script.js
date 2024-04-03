@@ -318,5 +318,15 @@
 // let concatArr = arr.concat(arr2)
 // console.log(concatArr);
 
+// 5. unShift method
+
+let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange"];
+
+console.log(arr);
+
+let addItem = arr.unshift('Chips');
+
+console.log(arr);
+
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
