@@ -93,7 +93,10 @@
 // 1. length
 // 2. Template Literals (NOT string method)
 // 3. concat method
-// 3. charAt method
+// 4. charAt method
+// 5. toUpperCase method
+// 6. toLowerCase method
+// 7. slice method
 
 
 // let myName = 'Danish shabbir'
@@ -133,10 +136,19 @@
 
 // toUpperCase method
 
-let userName = 'Pakistan'
-let res = userName.toUpperCase()
+// let userName = 'Pakistan'
+// let res = userName.toUpperCase()
 
-console.log(res);
+// console.log(res);
+
+// toLowerCase method
+
+// let userName = 'PAKISTAN'
+// let res = userName.toLowerCase()
+
+// console.log(res);
+
+
 
 
 
