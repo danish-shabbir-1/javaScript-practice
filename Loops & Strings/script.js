@@ -97,6 +97,7 @@
 // 5. toUpperCase method
 // 6. toLowerCase method
 // 7. slice method
+// 8. trim method
 
 
 // let myName = 'Danish shabbir'
@@ -147,6 +148,14 @@
 // let res = userName.toLowerCase()
 
 // console.log(res);
+
+// trim method
+
+// let userName = '     Pakis  tan          '
+// let res = userName.trim()
+
+// console.log(res);
+// console.log(userName);
 
 
 
