@@ -234,6 +234,7 @@ for (const i of heros) {
 
 const stdMarks = [12, 20, 54, 99, 63, 85];
 let result = 0
+let avg;
 
 for (let i = 0; i < stdMarks.length; i++) {
     result += stdMarks[i]
@@ -241,6 +242,11 @@ for (let i = 0; i < stdMarks.length; i++) {
 }
 
 console.log("The sum of the array is:" , result);
+
+ avg = result / stdMarks.length
+
+console.log("The avrage of the array is:" , avg);
+
 
 
 
