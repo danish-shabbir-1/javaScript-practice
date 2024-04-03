@@ -101,6 +101,24 @@
 // 9. replace method
 // 10. replaceAll method
 
+////////////////////////////////////////////////  NOTES START //////////////////////////////////////////////////////
+
+// 1. lenth check krke btata ha strings ki
+// 2. Template literalls ES6 ka feauture ha iskp use krne ke lie backtics (``) lga kr kisi variable ko add krte ha
+//    dollar lga kr like let Myname = ` my name is ${nameVariable}`
+// 3. concat method 2 string ko mila deta ha 
+// 4. chartAt method ko kisi string ke charachter ka index number de kr us jagah konsa charachter ha ye dekh skte ha 
+// 5. toUppercase method string ko capital me krdeta ha
+// 6. toLowercase method string ko small letters me krdeta ha
+// 7. slice method se hmm string se koi bhi  value nikal skte ha iske parameter me hme 2 values dene hote ha kha se value
+//    uthane ha or kha tak like [let res = userName.slice(0, 5)]
+// 8. trim method string ke start or ends se sb space khatam krdeta ha or darmian se nhi khatam krta ye
+// 9. replace method string me kisi letter ko replace krta ha [let res = userName.replace('our', 'your')]
+// 10. replaceAll method string me sb letter ko replace krta ha [let res = userName.replace('our', 'your')] jitene 
+//     bhi [our] name ke latters ha sbko [ your ] krdega 
+
+////////////////////////////////////////////////  NOTES ENDS ///////////////////////////////////////////////////////
+
 
 // let myName = 'Danish shabbir'
 
