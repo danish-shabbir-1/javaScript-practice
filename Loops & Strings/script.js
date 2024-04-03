@@ -92,6 +92,8 @@
 // Strings Method 
 // 1. length
 // 2. Template Literals (NOT string method)
+// 3. concat method
+// 3. charAt method
 
 
 // let myName = 'Danish shabbir'
@@ -108,9 +110,31 @@
 
 // charAt method
 
-let userName = 'Pakistan'
+// let userName = 'Pakistan'
 
-let res = userName.charAt(4)
+// let res = userName.charAt(4)
+
+// console.log(res);
+
+// Concat Method 
+
+// let userName = 'Pakistan'
+// let para = 'Our country is'
+// let res = para.concat(' ' + userName)
+
+// console.log(res);
+
+// slice method 
+
+// let userName = 'Pakistan'
+// let res = userName.slice(0, 5)
+
+// console.log(res);
+
+// toUpperCase method
+
+let userName = 'Pakistan'
+let res = userName.toUpperCase()
 
 console.log(res);
 
