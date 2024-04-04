@@ -77,11 +77,22 @@
 
 // Map method 
 
-let arr = ['Apple', 'Banana', 'Orange', 'Milk', 'Pinaple']
+// let arr = ['Apple', 'Banana', 'Orange', 'Milk', 'Pinaple']
 
-let newArr = arr.map((item, idx , arr) => {
-    return item.toUpperCase()
+// let newArr = arr.map((item, idx , arr) => {
+//     return item.toUpperCase()
+// })
+
+// console.log('old array-->', arr);
+// console.log('new array-->', newArr);
+
+// Filter method 
+
+let arr = [1,2,3,4,5,6,7,8,9,0,10,11,21,22,33,45,55,66,88,90,100]
+
+let newArr = arr.filter((item) => {
+    return item % 2 === 0;
 })
 
-console.log('old array-->', arr);
-console.log('new array-->', newArr);
+console.log('All number array-->', arr);
+console.log('new even number array-->', newArr);
