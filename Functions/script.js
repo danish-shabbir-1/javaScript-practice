@@ -63,3 +63,12 @@
 // arr.forEach((item, idx , arr) => {
 //     console.log(idx, item.toUpperCase(), arr);
 // })
+
+// PRACTICE QUESTION
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+arr.forEach((val) => {
+    let res = val * val
+    console.log(`${val} the square of this number is ${res}`);
+})
