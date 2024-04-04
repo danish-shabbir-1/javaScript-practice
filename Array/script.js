@@ -212,6 +212,9 @@
 // 5. shift method
 // 6. unShift method
 // 7. slice method 
+// 8. Splice method only add
+// 9. Splice method only delete
+// 10. Splice method only replace
 
 
 // 1. tostring method array ko string me convert krta ha
@@ -222,8 +225,8 @@
 // 6. unShift method array ke start me value add krta ha 
 // 7. slice method kisi bhi array se hmme 1 tukra ya value nikal kr deta ha isme starting index mtlb kha se uthana ha 
 //    or ending index kha tak uthana ha ending index 1 zyada dete ha hamesha agar 6 index tal value uthane ha to ending 
-//    index 7 hoga 
-
+//    index 7 hoga agar last index nhi de to and tak values le ata ha 
+// 8,9,10. Splice method isme 3 parameter hote ha first kha se del krna ha , phr kitne del krne ha , phr kia add krna ha
 
 
 
@@ -344,12 +347,59 @@
 
 // 7. slice method 
 
-let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
 
-console.log(arr);
+// console.log(arr);
 
-let slice = arr.slice(2,5);
+// let slice = arr.slice(2,5);
 
-console.log(slice);
+// console.log(slice);
+
+// 8. Splice method only add
+
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
+
+// arr.splice(2,0,"Orange", 'Dry Fruit')
+
+// console.log(arr);
+
+// 9. Splice method only delete
+
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
+
+// console.log(arr);
+
+// arr.splice(2,3)
+
+// console.log(arr);
+
+// 10. Splice method only replace
+
+// let arr = ["Apple", "Banana", "Pinaple", "Mango", "Orange", 'Dry Fruit'];
+
+// console.log(arr);
+
+// arr.splice(2,2, 101, 102)
+
+// console.log(arr);
+
+/// Practice Question 
+
+// let companies = ['Bloomberg', 'MicroSoft', 'IBM', 'Uber', 'Google', 'Netflix']
+
+// console.log(companies);
+
+// companies.shift()
+
+// console.log('Remove Bloomberg company start of the array',companies);
+
+// companies.splice(2,1, 'OLA')
+
+// console.log('Replace uber with Ola',companies);
+
+// companies.push('Amazon')
+
+// console.log('Amazon add end of array', companies);
+
 
 ///////////////////////////////////////////// ARRAYS NEW PRACTICE /////////////////////////////////////////////////////
