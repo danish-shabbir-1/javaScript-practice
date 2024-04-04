@@ -7,7 +7,9 @@
 // 3. essa function jo kisi or function ko arguments ke tor pr pass kia jata ha wo callback function hota ha
 // 4. FOREACH METHOD : foreach method arrays ke lie use hota ha or iske 3 parameters hote ha (val, index, arr)
 //    pehla value ka hota ha or second index ka hota ha third orignal array ka hota ha 
-// 5. HIHER ORDER FUNCTION : wo hote jo apne parameter me kisi function ko lele ya kuch return kr rhe ho unko higher
+// 5. MAP METHOD : map method arrays ke lie use hota ha or iske 3 parameters hote ha (val, index, arr) pehla value ka hota ha or 
+//    second index ka hota ha third orignal array ka hota ha or ye new array return krta ha foreach new arr return nhi krta 
+// 6. HIHER ORDER FUNCTION : wo hote jo apne parameter me kisi function ko lele ya kuch return kr rhe ho unko higher
 //    order func kehte ha.
 
 ////////////////////////////////////////////// NOTES ENDS ////////////////////////////////////////////////////////////
@@ -66,9 +68,20 @@
 
 // PRACTICE QUESTION
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-arr.forEach((val) => {
-    let res = val * val
-    console.log(`${val} the square of this number is ${res}`);
+// arr.forEach((val) => {
+//     let res = val * val
+//     console.log(`${val} the square of this number is ${res}`);
+// })
+
+// Map method 
+
+let arr = ['Apple', 'Banana', 'Orange', 'Milk', 'Pinaple']
+
+let newArr = arr.map((item, idx , arr) => {
+    return item.toUpperCase()
 })
+
+console.log('old array-->', arr);
+console.log('new array-->', newArr);
