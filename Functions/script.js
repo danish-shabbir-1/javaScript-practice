@@ -99,11 +99,43 @@
 
 // Reduce method 
 
-let arr = [1,2,3,4,5,6]
+// let arr = [1,2,3,4,5,1000,6] // 6
 
-let newArr = arr.reduce((res, curr) => {
-    return res + curr
-})
+// let newArr = arr.reduce((res, curr) => {
+//     return res > curr ? res : curr; // Ternary opraters
+// })
 
-console.log('old array-->', arr);
-console.log('new array-->', newArr);
+// console.log('old array-->', arr);
+// console.log('new array-->', newArr);
+
+// PRACTICE 
+
+// let arr = [20,60,90,80,99,102,100,200,120,215,96]
+
+// let newArr = arr.filter((item) => {
+//     return item >= 90
+// })
+
+// console.log('old array-->', arr);
+// console.log('new array-->', newArr);
+
+// let userInp = prompt("Enter array of number")
+
+// let arr = []
+
+// for (let i = 1; i <= userInp; i++) {
+//   arr[i-1] = i
+// }
+
+// console.log(arr);
+
+// PRACTICE 
+
+// let arr = [20,60,90,80,99,102,100,200,120,215,96]
+
+// let newArr = arr.reduce((res , curr) => {
+//     return res + curr
+// })
+
+// console.log('old array-->', arr);
+// console.log('new array-->', newArr);
