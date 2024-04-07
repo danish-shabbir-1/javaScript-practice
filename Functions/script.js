@@ -139,3 +139,14 @@
 
 // console.log('old array-->', arr);
 // console.log('new array-->', newArr);
+
+// PRACTICE 
+
+let arr = [20,60,90,80,99,102,100,200,120,215,96]
+
+let newArr = arr.reduce((res , curr) => {
+    return res * curr
+})
+
+console.log('old array-->', arr);
+console.log('new array-->', newArr);
