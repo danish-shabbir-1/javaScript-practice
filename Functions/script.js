@@ -11,6 +11,9 @@
 //    second index ka hota ha third orignal array ka hota ha or ye new array return krta ha foreach new arr return nhi krta 
 // 6. HIHER ORDER FUNCTION : wo hote jo apne parameter me kisi function ko lele ya kuch return kr rhe ho unko higher
 //    order func kehte ha.
+// 7. Rest Opraters : Rest opraters hme first parameter ke bd wali sb value count krni hoto ya print kuch bhi krna ho unke sath 
+//    unke lie hmm rest opraters use krte ha is se wo sb value 1 object me save ho jate ha Rest opraters hamesha and me use     
+//    hota ha first kro to error deta ha 
 
 ////////////////////////////////////////////// NOTES ENDS ////////////////////////////////////////////////////////////
 
@@ -142,11 +145,24 @@
 
 // PRACTICE 
 
-let arr = [20,60,90,80,99,102,100,200,120,215,96]
+// let arr = [1,2,3,4,2]
 
-let newArr = arr.reduce((res , curr) => {
-    return res * curr
-})
+// let newArr = arr.reduce((res , curr) => {
+//     return res * curr
+// })
 
-console.log('old array-->', arr);
-console.log('new array-->', newArr);
+// console.log('old array-->', arr);
+// console.log('new array-->', newArr);
+
+// 7. Rest Opraters 
+
+function restOpraters(name , Batch, ...number) {
+    let sum = 0
+ for (const i in number) {
+ sum += number[i]
+ }
+console.log(`Hello ${name} hope you are well. Your Batch is ${Batch} and your Roll No : ${sum}`);
+}
+
+restOpraters('Danish', '10' ,12, 32 , 100)
+restOpraters('Shabbir', '2' ,122, 32 , 130)
